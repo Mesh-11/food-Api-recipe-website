@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Meal For Your Ingredients</title>
+    <link rel="icon" href="assets/rice bowl favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title">Find Meals For Your Ingredients</h2>
+          <blockquote>
+            "Real food doesn't have Ingredients, real food is Ingredients"
+            <cite class="puote__mark-up">- jamie Oliver</cite>
+          </blockquote>
+          <div class="meal-search-box">
+            <input
+              type="text"
+              id="search__input"
+              class="input__box"
+              placeholder="Enter an ingredient..."
+            />
+            <button type="submit" class="btn search--btn" id="search__btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        <div class="meal-result">
+          <h2 class="title">Your Search Results:</h2>
+          <div id="meal__item-wrapper">
+            <!-- meal item -->
+            <!-- <div class="meal__item">
+              <div class="meal__img">
+                <img src="potato-chips.jpg" alt="food" />
+              </div>
+              <div class="meal__name">
+                <h3>Potato Chips</h3>
+                <a href="#/" class="btn recipe--btn">Get Resipe</a>
+              </div>
+            </div> -->
+            <!-- end of meal item -->
+          </div>
+        </div>
+        <div class="meal-details">
+          <!-- recipe close button -->
+          <button class="btn close--btn" id="recipe-close--btn">
+            <i class="fas fa-times"></i>
+          </button>
+          <!-- meal content -->
+          <div class="meal__details-content">
+            <!-- <h2 class="recipe__title">Meal's name here</h2>
+            <p class="recipe__category">Category Name</p>
+            <div class="recipe__instructions">
+              <h3 class="recipe__instructions-title">instructions:</h3>
+              <p class="recipe__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                distinctio doloribus, neque nesciunt aspernatur tenetur?
+                Sapiente nobis praesentium eos placeat id maiores, cumque
+                expedita fuga quisquam exercitationem nostrum dolore odio.
+              </p>
+            </div>
+            <div class="recipe__meal-img">
+              <img src="/potato-chips.jpg" alt="" />
+            </div>
+            <div class="recipe__link">
+              <a href="#/" target="_blank">Watch Video</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/fdc67e36fb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
